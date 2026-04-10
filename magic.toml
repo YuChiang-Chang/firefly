@@ -1,0 +1,13 @@
+[project]
+name = "firefly"
+version = "0.1.0"
+description = "A high-performance vector similarity search engine library written in pure Mojo."
+authors = ["Firefly Authors"]
+
+[dependencies]
+# No external dependencies, pure Mojo
+
+[tasks]
+test = "mojo test tests/"
+bench_distance = "mojo run benchmarks/bench_distance.mojo"
+bench_search = "mojo run benchmarks/bench_search.mojo"

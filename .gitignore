@@ -1,0 +1,26 @@
+# Pixi 環境 (非常重要，絕對不能上傳)
+.pixi/
+
+# 虛擬環境 (我們稍早嘗試用 python 建立的)
+.venv/
+env/
+
+# Mojo / MAX 編譯產物
+__pycache__/
+*.mojopkg
+build/
+dist/
+
+# Firefly 索引與資料檔 (本機產生的資料庫檔案)
+*.ffvx
+index.ffvx
+
+# 敏感資訊
+.env
+
+# 編輯器與系統暫存
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.log

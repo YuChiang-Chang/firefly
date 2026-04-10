@@ -1,0 +1,4 @@
+[project]
+name = "firefly"
+version = "0.1.0"
+description = "A high-performance vector similarity search engine library written in pure Mojo."
